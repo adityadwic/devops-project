@@ -16,7 +16,7 @@ Each project is based on real-world scenarios and includes implementation detail
      - Top 5 processes by CPU usage  
      - Top 5 processes by memory usage  
      - *(Stretch goals: OS version, uptime, load average, logged in users, failed login attempts)*  
-   - **Implementation:** [server-stats.sh](./01-server-performance-stats/server-stats.sh)  
+   - **Implementation:** [01-server-performance-stats](./01-server-performance-stats)  
 
 2. [Log Archive Tool](https://roadmap.sh/projects/log-archive-tool)  
    - **Description:** A CLI tool to archive logs with date and time by compressing them into `.tar.gz` format.  
@@ -25,7 +25,7 @@ Each project is based on real-world scenarios and includes implementation detail
      - Compresses logs into a `tar.gz` file with timestamp  
      - Stores archives in `~/log_archives/`  
      - Logs archive actions to `archive.log`  
-   - **Implementation:** [log-archive.sh](./02-log-archive-tool/log-archive.sh)  
+   - **Implementation:** [02-log-archive-tool](./02-log-archive-tool)  
 
 3. [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser)  
    - **Description:** A simple log analysis tool to parse Nginx access logs from the CLI.  
@@ -34,7 +34,7 @@ Each project is based on real-world scenarios and includes implementation detail
      - Top 5 most requested paths  
      - Top 5 response status codes  
      - Top 5 user agents  
-   - **Implementation:** [nginx-log-analyser.sh](./03-nginx-log-analyser/nginx-log-analyser.sh)  
+   - **Implementation:** [03-nginx-log-analyser](./03-nginx-log-analyser)  
 
 4. [GitHub Pages Deployment Workflow](https://roadmap.sh/projects/github-actions-deployment-workflow)  
    - **Description:** A GitHub Actions workflow to automatically deploy a static website to **GitHub Pages**.  
@@ -53,6 +53,15 @@ Each project is based on real-world scenarios and includes implementation detail
      - Configure `~/.ssh/config` for easier alias-based login  
      - *(Stretch goal: Install fail2ban to prevent brute-force attacks)*  
    - **Implementation:** [05-ssh-remote-server-setup](./05-ssh-remote-server-setup)  
+
+6. [Static Site Server](https://roadmap.sh/projects/static-site-server)  
+   - **Description:** Setup a basic Linux server, configure **Nginx** to serve a static website, and deploy changes using **rsync**.  
+   - **Features:**  
+     - Install and configure Nginx  
+     - Deploy static site to `/var/www/html`  
+     - Automate deployment with `deploy.sh`  
+     - *(Optional: point a domain and configure HTTPS)*  
+   - **Implementation:** [06-static-site-server](./06-static-site-server)  
 
 ---
 
