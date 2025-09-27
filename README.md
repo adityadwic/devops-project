@@ -27,6 +27,17 @@ Each project is based on real-world scenarios and includes implementation detail
      - Logs archive actions to `archive.log`  
    - **Implementation:** [log-archive.sh](./log-archive/log-archive.sh)  
 
+3. [Nginx Log Analyzer](https://roadmap.sh/projects/nginx-log-analyser)  
+   - **Description:** A Bash script to parse and analyze Nginx access logs.  
+   - **Features:**  
+     - Total requests count  
+     - Top 5 IP addresses  
+     - Top 5 requested endpoints  
+     - Percentage of successful (2xx) and failed (4xx/5xx) requests  
+     - Requests per HTTP method (GET, POST, etc.)  
+     - Peak traffic hour  
+   - **Implementation:** [analyze-logs.sh](./nginx-log-analyzer/analyze-logs.sh)  
+
 ---
 
 ## Usage
