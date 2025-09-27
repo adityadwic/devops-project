@@ -18,7 +18,7 @@ Each project is based on real-world scenarios and includes implementation detail
      - *(Stretch goals: OS version, uptime, load average, logged in users, failed login attempts)*  
    - **Implementation:** [server-stats.sh](./server-stats.sh)  
 
-2. [Log Archive Tool](https://roadmap.sh/projects/log-archive-cli-tool)  
+2. [Log Archive Tool](https://roadmap.sh/projects/log-archive-tool)  
    - **Description:** A CLI tool to archive logs with date and time by compressing them into `.tar.gz` format.  
    - **Features:**  
      - Accepts log directory as an argument  
@@ -26,7 +26,6 @@ Each project is based on real-world scenarios and includes implementation detail
      - Stores archives in `~/log_archives/`  
      - Logs archive actions to `archive.log`  
    - **Implementation:** [log-archive.sh](./log-archive/log-archive.sh)  
-
 
 ---
 
