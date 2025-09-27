@@ -7,6 +7,7 @@ Project URL: [https://roadmap.sh/projects/static-site-server](https://roadmap.sh
 ## Overview
 This project focuses on setting up a basic Linux server and configuring it to serve a static website using **Nginx**.  
 You will also practice deploying updates with **rsync**.
+<img width="1439" height="864" alt="static web" src="https://github.com/user-attachments/assets/c12ba67b-daf6-4e9e-a379-819e81b1b191" />
 
 ---
 
