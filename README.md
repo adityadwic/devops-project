@@ -16,7 +16,7 @@ Each project is based on real-world scenarios and includes implementation detail
      - Top 5 processes by CPU usage  
      - Top 5 processes by memory usage  
      - *(Stretch goals: OS version, uptime, load average, logged in users, failed login attempts)*  
-   - **Implementation:** [server-stats.sh](./server-stats.sh)  
+   - **Implementation:** [server-stats.sh](./01-server-performance-stats/server-stats.sh)  
 
 2. [Log Archive Tool](https://roadmap.sh/projects/log-archive-tool)  
    - **Description:** A CLI tool to archive logs with date and time by compressing them into `.tar.gz` format.  
@@ -25,18 +25,24 @@ Each project is based on real-world scenarios and includes implementation detail
      - Compresses logs into a `tar.gz` file with timestamp  
      - Stores archives in `~/log_archives/`  
      - Logs archive actions to `archive.log`  
-   - **Implementation:** [log-archive.sh](./log-archive/log-archive.sh)  
+   - **Implementation:** [log-archive.sh](./02-log-archive-tool/log-archive.sh)  
 
-3. [Nginx Log Analyzer](https://roadmap.sh/projects/nginx-log-analyser)  
-   - **Description:** A Bash script to parse and analyze Nginx access logs.  
+3. [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser)  
+   - **Description:** A simple log analysis tool to parse Nginx access logs from the CLI.  
    - **Features:**  
-     - Total requests count  
-     - Top 5 IP addresses  
-     - Top 5 requested endpoints  
-     - Percentage of successful (2xx) and failed (4xx/5xx) requests  
-     - Requests per HTTP method (GET, POST, etc.)  
-     - Peak traffic hour  
-   - **Implementation:** [analyze-logs.sh](./nginx-log-analyzer/analyze-logs.sh)  
+     - Top 5 IP addresses with the most requests  
+     - Top 5 most requested paths  
+     - Top 5 response status codes  
+     - Top 5 user agents  
+   - **Implementation:** [nginx-log-analyser.sh](./03-nginx-log-analyser/nginx-log-analyser.sh)  
+
+4. [GitHub Pages Deployment Workflow](https://roadmap.sh/projects/github-actions-deployment-workflow)  
+   - **Description:** A GitHub Actions workflow to automatically deploy a static website to **GitHub Pages**.  
+   - **Features:**  
+     - Deploys only when files in `04-github-pages-deployment/` change  
+     - Publishes the website to GitHub Pages  
+     - Example output: `https://<username>.github.io/devops-project/`  
+   - **Implementation:** [04-github-pages-deployment](./04-github-pages-deployment)  
 
 ---
 
