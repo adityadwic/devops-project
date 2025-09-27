@@ -44,6 +44,16 @@ Each project is based on real-world scenarios and includes implementation detail
      - Example output: `https://<username>.github.io/devops-project/`  
    - **Implementation:** [04-github-pages-deployment](./04-github-pages-deployment)  
 
+5. [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)  
+   - **Description:** Setup a basic remote Linux server and configure it to allow SSH connections.  
+   - **Features:**  
+     - Create and configure a remote Linux server (DigitalOcean, AWS, etc.)  
+     - Generate and add multiple SSH key pairs  
+     - Connect using both SSH keys  
+     - Configure `~/.ssh/config` for easier alias-based login  
+     - *(Stretch goal: Install fail2ban to prevent brute-force attacks)*  
+   - **Implementation:** [05-ssh-remote-server-setup](./05-ssh-remote-server-setup)  
+
 ---
 
 ## Usage
